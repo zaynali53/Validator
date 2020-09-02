@@ -1,5 +1,4 @@
-PHP Validator
-=============
+# PHP Validator
 
 A Simple PHP Input Validator.
 
@@ -11,7 +10,8 @@ A Simple PHP Input Validator.
 4. When validation fails, use ```show_errors``` method to display error messages.
 
 <h2>Example Code:</h2>
-```html+php
+
+```php
 require_once 'class.validator.php';
 
 $v = new Validator;
@@ -28,10 +28,10 @@ $v->validate($_POST, $rules);
 $v->is_valid ?: $v->show_errors(['id' => 'errors', 'class' => 'errors'], TRUE);
 
 echo "<pre>", print_r($_POST), "</pre>";
-
 ```
 
 <h2>Rules:</h2>
+
 ```
 1. required     -   Checks value as must given.
 2. email        -   Checks domain of the email is accepted.
