@@ -2,14 +2,14 @@
 
 A Simple PHP Input Validator.
 
-<h2>Usage:</h2>
+## Usage:
 
-1. Require the "class.validator.php".
-2. Set the rules according to your field names with pipe ```|``` and sub-rules with Colon ```:```
-3. Call the method ```validate``` with your input data and rules.
-4. When validation fails, use ```show_errors``` method to display error messages.
+1. Require the `class.validator.php`.
+2. Set the rules according to your field names with pipe `|` and sub-rules with Colon `:`
+3. Call the method `validate` with your input data and rules.
+4. When validation fails, use `show_errors` method to display error messages.
 
-<h2>Example Code:</h2>
+## Example Code:
 
 ```php
 require_once 'class.validator.php';
